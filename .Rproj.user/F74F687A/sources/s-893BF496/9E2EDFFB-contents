@@ -1,0 +1,18 @@
+Package: mailPred
+Type: Package
+Title: XGBoost Predict Mail
+Version: 0.1.0
+Author: XuJing
+Maintainer: XuJing <274762204@qq.com>
+Description: Mail predict test for opencpu.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: false
+Date: 2018-12-30
+URL: https://github.com/DataXujing/mailPred
+BugReports: https://github.com/DataXujing/mailPred/issues
+RoxygenNote: 6.1.1
+Depends: R (>= 3.4.0)
+Imports: xgboost,jsonlite,stats,utils
+Suggests: rmarkdown, knitr
+VignetteBuilder: knitr
